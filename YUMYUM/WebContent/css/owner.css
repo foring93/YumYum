@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.owner_menu, .menu_section, .owner_page {
+	box-sizing: border-box;
+}
+
+.owner_menu {
+	width: 800px;
+	height: 1300px;
+	border: 1px solid white; /* 임시선 */
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/* 
+		.menu_section {
+			height : 70px;
+		}
+		 */
+.list-unstyled li {
+	float: left;
+}
+
+.owner_content {
+	clear: left;
+	height: 1200px;
+}
+
+.owner_page a {
+	text-decoration: none !important;
+}
+
+/* 맛집등록, 요청현황 */
+.page_title {
+	/* border : 1px solid green; */
+	font-size: 10pt;
+	padding: 5px;
+	color: white;
+	border-bottom: 20px solid #ad968a;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+.page_title:hover {
+	opacity: 1;
+}
+
+.page_title_sel {
+	opacity: 1;
+}
+
+li:first-child .page_title {
+	margin: 0 0 0 20px;
+}
+
+.owner_content {
+	/* background : white; */
+	/* height : 1200px; */
+	border: 1px solid #ad968a;
+	width: 760px;
+	margin: 0 auto;
+	margin: 0 20px;
+}

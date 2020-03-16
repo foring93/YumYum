@@ -1,0 +1,160 @@
+.yy_img {
+	width: 70px;
+	height: 70px;
+}
+
+.yy_profileimg {
+	width: 100px;
+	height: 100px
+}
+
+.yy_pointimg {
+	width: 110px;
+	height: 110px
+}
+
+.yy_reviewimg {
+	width: 90px;
+	height: 90px
+}
+
+.yy_heartimg {
+	width: 100px;
+	height: 100px
+}
+
+#yy_dibsimg {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 10px;
+}
+
+#yy_star {
+	width: 20px;
+	height: 20px
+}
+
+.yy_mypagediv {
+	text-align: left;
+	padding: 20px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	background: white;
+	border-radius: 20px;
+}
+
+.yy_350 {
+	width: 350px;
+	height: 850px;
+	float: left;
+	margin: 0;
+	box-sizing: border-box;
+	background: #F87A04;
+	padding: 20px
+}
+
+.yy_350>div:first-child {
+	height: 150px
+}
+
+.yy_350>div:nth-child(2) {
+	height: 150px
+}
+
+.mypageinclude {
+	width: 650px;
+	height: 850px;
+	float: left;
+	margin: 0;
+	box-sizing: border-box;
+	padding: 20px 60px;
+}
+
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.container {
+	padding-left: 0px !important;
+}
+
+.out_container {
+	margin: 0 auto;
+	text-align: left;
+}
+
+.HY_legend>input[text], .HY_legend>input[email], .HY_legend>label {
+	margin-left: 10px
+}
+
+.yy_1000 {
+	width: 1000px;
+	height: 850px;
+}
+
+#yy_a {
+	color: black;
+	cursor: pointer;
+}
+
+#yy_a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.yy_idspan {
+	color: #3F3D3D;
+	font-weight: bold;
+	margin-left: 40px;
+	font-size: 20px
+}
+
+.yy_coinspan {
+	color: #3F3D3D;
+	font-weight: bold;
+	margin-left: 56px;
+	font-size: 20px
+}
+
+.yy_dibsspan {
+	color: #3F3D3D;
+	font-weight: bold;
+	margin-left: 39px;
+	font-size: 20px
+}
+
+.yy_reviewspan {
+	color: #3F3D3D;
+	font-weight: bold;
+	margin-left: 39px;
+	font-size: 20px
+}
+
+#yy_dibsdiv {
+	width: 99%;
+	float: left;
+}
+
+#yy_dibsdivdiv {
+	width: 100%;
+	height: 140px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 1px solid #dcdcdc
+}
+
+#yy_dibsdivdiv:hover {
+	background: #f87a041f
+}
+
+#yy_dibstext {
+	text-align: left;
+	width: 80%;
+	margin: 10px 30px;
+}
+
+#yy_starspan {
+	float: right
+}

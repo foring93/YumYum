@@ -1,0 +1,38 @@
+@charset "utf-8";
+.HY_a{color:#f98813; font-size:30px;}
+.HY_a:hover{text-decoration:none; color:#f98813; opacity:0.7; transition: 0.3s;}
+.join_line{margin:0 auto; height:930px; width:600px; margin-top:20px; border:1px solid silver; border-radius:30px;}
+legend{font-size:17pt; font-weight:bold; text-align:center;}
+fieldset{margin:0 auto; border:1px solid silver; border-radius:30px; padding:30px;}
+form{height:890px; width:550px; background:white; margin:0 auto; margin-top:30px;}
+.HY_label{display:inline-block; font-weight:bold; margin:17px 0 5px 0; font-size:11pt;margin-left: 90px;}
+.HY_input[type=text],#pass,#gender{text-indent:7px; border:none; border-bottom:1px solid silver;}
+.HY_input{outline:none;}
+#id,#post1,#nickname,#gender,#birthday,#email{height:30px;width: 75%;padding:10px;margin-left: 90px;}
+.HY_input[type=button]{
+					display:inline-block;
+					height:32px; width:19%; 
+					background:#ad968a; color:white;
+					border-style:none;
+					line-height:32px;
+					font-size:9pt;
+					cursor:pointer;
+				}
+.HY_input[type=button]:hover{opacity:0.7; border-radius:15px; transition: 0.3s;}
+.HY_input:focus{background:#ffd4a7; border-bottom:1px solid #f98813;opacity:0.7; transition: 1s;}
+#pass,#address,#phone,#name{height:30px;width: 75%;padding:10px;margin-left: 90px;}
+#year,#month,#day{height:30px; width:32.4%}
+#sel{height:30px; width:19.9%; background:#dddddd; outline:none; font-size:11px; border:1px solid #eaeaea; margin-left:0.5px}
+#intro{width:100%; margin-bottom:5px; outline:none;}
+.HY_button{font-size:10.5pt;}
+.HY_button[type='submit']{background:#ad968a; color:white; margin-top:37px;}
+.HY_button[type='reset']{}
+.HY_button{height: 40px;width: 400px; border-style:none; cursor:pointer;margin-left: 210px;}
+.HY_button:hover{opacity:0.7; border-radius:15px; transition: 0.3s;}
+#gender:focus{background:#ffd4a7; transition: 1s;}
+.HY_span{display:none; position: absolute;}
+.HY_span{color:red; font-size:11px;}
+.HY_input::placeholder{font-size:14px; color:#a2a2a2}
+#gender,#month{font-size:14px;}
+#yy_h3{padding-left: 85px;
+}

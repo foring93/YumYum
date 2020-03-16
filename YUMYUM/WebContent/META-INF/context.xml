@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/yumyum"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="YUMYUM"
+		password="YUM1234"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		url="jdbc:oracle:thin:@127.0.0.1:1521:xe"
+		maxTotal="500"
+		maxIdle="100"/>
+</Context>
+
+<!-- 
+	JNDI에 설정해 놓았다는 건은 context.xml에 리소스를 생성해놓은 것을 말한다.
+	1. 	name = "jdbc/OracleDB"
+	   	JNDI로 호출될 이름을 설정하는 곳으로 임의로 이름 설정 가능하다.
+	   	dbcpAPITest.jsp의 init.lookup("java:comp/env/jdbc/OracleDB");
+	   	lookup 함수로 여기서 설정한 이름을 찾는다.
+	   
+	2.  auth = "Container"
+	    DBCP를 관리할 관리자(Container or Application)
+	        톰캣이 관리한다. 컨테이너=톰캣 
+	
+	3.  type = "javax.sql.DataSource"
+		1번 resource의 return type이 DataSource라는 의미, Connection 객체를 반환할 수 있다.
+		예) DataSource ds = (DataSource) init.lookup("java:comp/env/jdbc/OracleDB");
+		
+		DataSource가 아래 변수들을 다 가지고 있다. 
+	
+	4.	username="SCOTT" (DB의 계정명)	      
+	      
+	5.  password="TIGER" (계정에 대한 비밀번호)    
+	  
+	6.  driverClassName="orcle.jdbc.driver.OracleDriver"
+		오라클 드라이버 이름 (JDBC를 이용하기 위한 드라이버 클래스)
+	
+	7.	factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		- BasicDataSource의 인스턴스를 만드는 JNDI 객체 팩토리이다.
+		  dbcp를 관리하는 클래스로 Factory 클래스를 이용하면 좀 더 안정적으로 관리할 수 있다.
+		  
+		  톰캣 7 버전
+		  factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+	
+	8.	url="jdbc:oracle:thin:@127.0.0.1:1521:xe"
+		DB의 접속 URL이다.
+	
+	9.	maxTotal="500"(최대 사용할 Conncetion 갯수)
+	
+	10. maxIdle="100"(DB Pool에 여분으로 남겨질 최대 Connection 갯수)
+  -->
+	

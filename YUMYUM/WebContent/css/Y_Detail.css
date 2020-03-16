@@ -1,0 +1,89 @@
+.ReviewText{color:black;}
+a:link{text-decoration:none;}
+a:link:hover{text-decoration:none;}
+li{list-style:none;}
+ul{padding:0}
+button{border:0px; background:white;}
+.hy_h4{font-size:11pt; font-weight:bold;}
+.out_container{width:1000px; margin:0 auto; padding-left:15px;}
+.main_area{width:1000px; height:539px; padding-top:45px; position:relative;}
+.img_area{width:500px; background:yellow;}
+#b_img{width:450px; height:400px; float:left;}
+.title_wrap{width:530px; height:400px; padding-left:30px; display:inline-block;}
+.mp_name{margin-right:11px; font-size:19pt; margin-bottom:5px;}
+#rating{font-size:23px; color:orange; font-weight: bold; float:right; margin-right:20px;}
+.HY_td{font-size:14px; height:34px;}
+.HY_td:nth-child(1){width:130px; height:30px;}
+.mp_regidate{color:silver; padding-top:13px;}
+.tab_info{width:1000px;}
+.review_area{width:1000px; margin-top:30px; clear:left;}
+.sp_title{font-weight: bold;}
+#photo_list{padding-top:13px;}
+.photo_list_li{width:100px; height:76px;}
+.photo{float:left; width:1000px; margin-top:0;}
+#photo_list li{float:left; margin-right:10px;}
+.ReveiwList{width:1000px; margin:0 auto;}
+.ReviewList_FilterList li{float:right; margin-right:10px;}
+.info td:first-child{color:silver;}
+.ReviewList_Header{margin-bottom:50px;}
+.ReviewItem__Picture{width:120px; height:120px;}
+.ReviewItem_link div{float:left;}
+.ReviewItem_user{width:10%; margin: 15px 35px 0 8px;}
+.ReviewContent{width:70%;}
+#saram{width:70px; hieght:150px;}
+
+@-webkit-keyframes test {0%{padding-top:0px;} 100%{padding-top:5px;}}
+#photo_list img:hover{opacity:0.7; transform:scale(1.1, 1.1); animation-name:test; animation-duration:0.15s;   animation-duration: leaner;
+ 	animation-iteration-count:2;
+    animation-direction:alternate;
+    animation-fill-mode: forwards;}
+#jjim_btn,#jjim_btn_login{float:right; border:0; outline:0;}
+.jjim_p{text-align:center; font-size:9.5pt; color:gray; clear:right;}
+.jjim_wrap{display:inline-block; float:right; margin-top:-25px;}
+.detail_info{color:gray; font-size:9.5pt;}
+.detail_date{text-align:right; color:silver; font-size:11pt; margin-top:50px;}
+.sub_area{padding-bottom:15px; height:355px; width:1000px; margin-top:33px;}
+#map{width:400px; height:265px; float:left}
+.mp_info_test{width:580px; height:300px; float:left; margin:-33px 0 0 20px;}
+.rc_tb{display:inline-block; width:175px; height:130px; background:silver; margin:10px 7px 5px 0; text-align:center; position:relative;}
+.rc_bg{width:175px; height:60px; background:#212121; opacity: 0.7; position:absolute; bottom:0}
+.rc_tb img{width:175px; height:130px;}
+.rc_name,.rc_ar{display:inline-block; color:white; font-size:10.5pt;}
+.rc_name{margin-top:7px;}
+.rc_tb:hover{cursor:pointer; opacity:0.9; transition:0.3s;}
+.detail_info img{width:11px; margin:0 0 2px 5px; opacity:0.5;}
+#review_write{position:relative; left:860px; display:inline-block; font-size:10pt; color:gray; font-weight:normal;}
+#review_write img{width:30px; height:30px; opacity:0.5; display:inline-block; margin-left:3px;}
+#review_write_btn{color:gray;}
+.selects span{margin-right:25px; color:#101010}
+.review-btn{padding-left:10px;}
+#jjim_img{opacity:0.7;}
+.pt_search{display:inline-block; width:185px; height:111px; background:silver; margin:10px 0 5px 0;}
+.logoImg{width:93px;}
+.search_img:hover{opacity:0.7;}
+.search_img{margin:10px 13px; display:inline-block; padding:9px; border-radius:17px; border:1px solid #eaeaea;}
+.search_h4{margin-top:43px; font-size:11pt;}
+.mp_info_test b{font-size:11pt;}
+.review_cnt{margin-top:10px; font-weight:bold;}
+.reviewHeader{margin-bottom:70px;}
+.review{position:relative;}
+.review:hover{background:#f3d9cc; transition: 0.3s;}
+.review_grade img{width:17px;}
+.re_img img{margin-right:10px;}
+.re_img img:hover{opacity:0.7;}
+.user_nickname{color:#ad968a}
+.re_content{font-size:11pt; width:75%; height:99px!important;}
+.user_info{font-size:11pt;}
+.re_regidate{color:gray;}
+.reviewHeader{margin-bottom:75px;}
+.re_recom{position:absolute; top:110px; left:54px; display:inline-block;}
+.re_recom:hover{opacity:0.7;}
+.re_recom img{width:30px; height:30px; cursor:pointer; opacity:0.7;}
+.re_control{display:inline-block; margin:5px 18px 0 0; float:right; color:gray;}
+.editR{margin-right:5px;}
+.editR:hover,.deleteR:hover{cursor:pointer; color:black;}
+.review{font-size:11pt;}
+.re_img{margin-top:15px;}
+.ya{width:185px; display:inline-block;}
+.rcMessage{margin:47px 10px; color:gray; font-size:13pt;}
+.mp_regidate_tr{right:17px; bottom:-23px; position:absolute; font-size:10.5pt;}

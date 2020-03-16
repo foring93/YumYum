@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.HY_a{color:#ad968a; font-size:35px;}
+.HY_a:hover{text-decoration:none; color:#ad968a; opacity:0.7; transition: 0.3s;}
+.join_line{margin:0 auto; height:1050px; width:630px; margin-top:20px; border:1px solid #eaeaea; border-radius:10px;}
+legend{font-size:17pt; font-weight:bold; text-align:center;}
+fieldset{margin:0 auto}
+form{height:890px; width:550px; background:white; margin:0 auto; margin-top:30px;}
+.HY_label{display:inline-block; font-weight:bold; margin:19px 0 5px 0; font-size:11pt;}
+.who{font-size:14.5px;}
+.HY_input[type=text],#pass{text-indent:7px; border:none; border-bottom:1px solid silver;}
+.HY_input[type=text]{font-size:13px;}
+.HY_input{outline:none;}
+#post1{height:30px; width:79.7%;}
+.HY_input[type=button]{
+					display:inline-block;
+					height:32px; width:19%; 
+					background:#ad968a; color:white;
+					border-style:none;
+					line-height:32px;
+					font-size:9pt;
+					cursor:pointer;
+				}
+.HY_input[type=button]:hover{opacity:0.7; border-radius:15px; transition: 0.3s;}
+.HY_input:focus{background:#ad968a; border-bottom:1px solid gray;opacity:0.7; transition: 0.5s;}
+#id,#pass,#address,#phone,#name,#business_no,#nickname{height:30px; width:99%;}
+#month,#gender{border:1px solid #eaeaea; color:gray}
+#year,#month,#day{height:30px; width:32.4%}
+#email,#domain{height:30px; width:36.9%;}
+#sel{height:30px; width:19.9%; background:#dddddd; outline:none; font-size:11px; border:1px solid #eaeaea; margin-left:0.5px}
+#gender{height:35px; width:100%; border:1px solid #eaeaea; 
+				line-height:35px; margin-bottom:10px;}
+#intro{width:100%; margin-bottom:5px; outline:none;}
+.HY_button{font-size:10.5pt;}
+.HY_button[type='submit']{background:#ad968a; color:white; margin-top:37px;}
+.HY_button[type='reset']{}
+.HY_button{height:35px; width:49.5%; border-style:none; cursor:pointer;}
+.HY_button:hover{opacity:0.7; border-radius:15px; transition: 0.3s;}
+#gender:focus{background:#ad968a; color:white; transition: 0.5s;}
+#month:focus{background:#ad968a; color:white; transition: 0.5s;}
+.HY_span{display:block; position:absolute;}
+.HY_span{color:red; font-size:12px;}
+.HY_input::placeholder{font-size:14px; color:#a2a2a2}
+#gender,#month{font-size:14px;}
+#business_no{display:none;}
+input[type='checkbox']{margin:0px 3px;}
+.who span{color:#5d5c5c;}

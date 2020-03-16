@@ -1,0 +1,100 @@
+/* ############### */
+/* 헤더 */
+@font-face { font-family: 'Font3'; src: url('../font/font5.ttf'); }
+
+.font{font-family:Font3}
+
+@font-face { font-family: 'GoodFont'; src: url('../font/Typo_Buamdong2019M.ttf'); }
+
+.font{font-family:GoodFont}
+#header {
+	margin-right: 10%;
+	width: 1000px
+}
+/* .ulin{display:inline-block;float:left;} */
+/* 외곽 윤곽선 */
+.border {
+	border: 1px solid black;
+}
+
+.img {
+	width: 170px;
+	height: 60px;
+}
+.logo{width: 1000px;
+	box-sizing: border-box;
+	text-align: left;
+	height:80px;
+	background: #F87A04;
+	border-top-left-radius:15px;
+	border-top-right-radius: 15px }
+/* 헤더 로고 */
+.in {
+	display: inline;
+	width: 200px;
+}
+
+.out {
+	width: 1000px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.login {
+	
+	font-family:font3;
+	font-size:12pt;
+	display: inline-block;
+	text-align: right;
+	float:right;
+	width:650px;
+	
+}
+.login a{padding-right:12px;padding-left:12px;
+			padding-bottom: 5px;padding-top: 5px;}
+.login div{ width:155px;background:black;float:right;border-radius: 15px;}
+.loginout {
+	position:relative;
+	z-index:1;
+	width: 1000px;
+	text-align: right;
+	background:#F87A04;
+}
+
+.category {
+	display: inline;
+	list-style: none;
+	
+}
+
+.category li {
+	display: inline;
+	margin-right:20px;
+	margin-left:20px;
+	float:right;
+	margin-top:7px;
+}
+
+.a {
+	text-decoration: none;
+	font-family: font3;
+	font-size:15pt;
+	color:#3E3D3C;
+}
+/* body{padding-left:430px;padding-right:400px;}  */
+
+/* ############### */
+/* 푸터 */
+.de_in {
+	display: inline-block;
+	width: 1000px;
+	text-align: center;
+	margin-top: 10px
+}
+.container{width:1000px!important;padding:0px!important}
+.login2{display:inline}
+.de_span{font-family: GoodFont;font-size:40pt;
+color:black;margin-left:10px;float:left; }
+
+
+

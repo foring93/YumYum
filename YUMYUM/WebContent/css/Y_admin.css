@@ -1,0 +1,42 @@
+@font-face { font-family: 'GoodFont'; src: url('../font/Typo_Buamdong2019M.ttf'); }
+@font-face { font-family: 'Font3'; src: url('../font/font5.ttf'); }
+/* .font{font-family:GoodFont} */
+
+.ad_div{background:white;height:90px; width:180px;text-align: center;font-size: 20pt ;
+		line-height: 90px;color:#3F3D3D;margin:10px;border-radius:10px;float:left}
+.color{background:#F87A04;}
+.ad_wrap{width:200px;height:900px;display:inline-block;border-bottom-left-radius: 10px;}
+.ad_div:hover{background:#F19729;}
+.ad_content{width:800px;display: inline-block;background:#494644;height:900px;float:right;
+			border-bottom-right-radius:10px;  }
+.b_h1{font-family:Font3;color:lightgray;font-size:20pt;margin-bottom: 10px} 
+.table-form tr,th,td {border-bottom:0.7px solid lightgray ;  color:black; font-size:14pt}
+.table-form th{background: lightgray;height:30px;font-size: 11pt}
+/* .table-form th{border:1px solid #6E6E6E}  */
+.b_div{padding:10px; }
+.table-form{width:850px;text-align: center;color:white;}
+.table-form td{height:40px;font-size: 10pt!important}
+a{color:blue;font-weight: bolder;}
+.page-link{color:white;}
+.center-block {
+   				display: flex;
+   				justify-content: center;
+			}
+.page-item,.page-item a{background:white!important;border:0px;color:gray;font-size:10pt;}
+.current{text-decoration: underline!important;color:black!important}
+.page-item:hover{background:#494644;opacity: 0.5;}
+.page-item{width:50px;text-align: center;}
+.search{float:right;margin-top:15px;}
+button[name=searchbutton]{margin-right:10px;}
+.de_row{width:1140px;}
+.MPA-table {border-collapse: separate;border-spacing: 0px;}
+.MPA_talble *{padding: 0px;}
+.MPA-table th{background: #e9ecef;}
+.MPA-table td{height:20px!important; }
+.MPA_in{border-left:5px solid white;border-top: 5px solid white;}
+.MPA_center{border-left:5px solid white;border-top: 0px;}
+.MPA_bottom{border-left:5px solid white; border-bottom: 5px solid white;}
+.MPA_div{display:inline-block; margin-left: 350px; margin-top:10px}
+.user_delete{height:28px;font-size:8pt;padding-top:3px;padding-bottom: 3px;}
+.board_btn{ font-size: 8pt}
+#TH_iframe{margin-top:20px;}

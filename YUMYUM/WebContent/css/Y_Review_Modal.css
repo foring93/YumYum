@@ -1,0 +1,86 @@
+
+/* 모달 이미지 폼 */
+.modal.modal-center {
+  text-align: center;
+}
+.modal-dialog{
+	width:fit-content!important;
+	height:fit-content!important;
+}
+@media (min-width: 576px)
+.modal-dialog {
+ 	width:fit-content!important;
+	height:fit-content!important;
+}
+@media (min-width: 992px)
+.modal-lg, .modal-xl {
+    max-width: fit-content!important;
+    max-height: fit-content!important;
+}
+.modal-footer{
+	height:120px;
+}
+.hiddenBtn{
+	display:none!important;
+}
+.currentShowImg{
+	text-align:center;
+}
+.currentShowImg > img{
+	left:0;right:0;
+	top: 100px;
+	min-width:610px;
+	max-width:630px;
+	max-height: 400px;
+	height:auto;
+	margin:0 auto;
+}
+.sameRImgsArea{
+	left:0;right:0;
+	max-height:700px;
+	max-width:620px;
+	text-align:center;
+}
+.hiddenImg{
+	display:none!important;
+}
+.cImgsArea{
+	position:absolute;
+	height:133px;
+	width:1000px;
+	left:-176px;
+}
+.clickableImgs{
+	display: inline-block;
+}
+.clickableImgs > img{
+	height:100px;
+	width: auto;
+	margin:20px 2px;
+	z-index:100;
+}
+.clickableImgs > img:hover{
+	cursor:pointer;
+	transition:0.4;
+	border:1px solid #ad968a;
+	opacity:0.7;
+}
+.backImg img,.nextImg img{
+	position:absolute;
+	height:65px;
+	opacity:0.7;
+	width:auto;
+	bottom: -86px;
+	z-index:9999;
+}
+.nextImg *{right:0;}
+.backImg *{left:0;}
+.nextImg *:hover, .backImg *:hover{
+	cursor:pointer;
+	opacity:0.5;
+}
+.xBtn{
+	text-align:right;
+	padding-right:10px;
+	font-size:20pt;
+}	

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.upload-hidden{
+	display:none;
+}
+
+.rep_img{
+	padding: .5em .75em;
+	line-height: normal; vertical-align: middle;
+	background-color: #fdfdfd; cursor: pointer; border: 1px solid #ebebeb;
+	border-bottom-color: #e2e2e2; border-radius: .25em;
+}
+.rep_img:hover{
+	opacity: 0.5;
+}
+.rep_img>img{
+	height:50px;
+	width:auto;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.margin_left{
+	margin-left:70px;
+	cursor:pointer;
+}
+
+.addfileMessage{
+	color:darkgrey; margin-left:25px;
+}

@@ -1,0 +1,76 @@
+.reviewArea{width:1000px; margin-top:30px;}
+.reviewHeader{margin-bottom:50px;}
+.selects *{float:right; margin-right:10px; font-size:10.5pt; color:gray;}
+.reviews{width:1000px; margin:0 auto;}
+.review{
+	padding: 13px 20px;
+	margin: 20px;
+	border: 1px solid #ffe1a9;
+}
+.review:hover{background:#efefef; transition: 0.3s;}
+.review_grade img{width:17px;}
+.re_img img{margin-right:10px;}
+.re_img img:hover{opacity:0.7;cursor:pointer;}
+.user_info{
+	display: inline-block;
+	width:10%; float:left;
+	height: 150px;
+	padding: 10px;
+	text-align: center;
+}
+.user_nickname{
+	color: orange;
+	font-weight:bold;
+	
+}
+.rev_content{
+	display: inline-block;
+	height: 30px;
+	width:85%;
+	margin-top:10px;
+	margin-left:35px;
+}
+.review_grade{
+	float:right;
+}
+.re_content{
+	width:85%;
+	color:black;
+	font-size:11pt;
+	display: inline-block;
+	height: 120px;
+	margin-left:35px;
+	word-wrap:break-word;
+}
+.rev_img{width:100%; height:90px;}
+
+/* 별점주는용 */
+.star-rating {width:239px; }
+.star-rating,.star-rating span {display:block; height:22px; overflow:hidden; background:url("../img/star.png")no-repeat; }
+.star-rating span{background-position:left bottom; line-height:0; vertical-align:top; }
+
+/* 리뷰 */
+.review{padding: 13px 20px; margin: 20px 25px 15px 0; border:1px solid #a7a09d;}
+.no_review{text-align:center; width:1000px; color:gray; display:inline-block; margin:19px 0;}
+.user_nickname{color:#ad968a;}
+.re_img img{margin-bottom:11px;}
+#review_write_btn,#review_write_cancel_btn{outline:none; color:gray;}
+#review_write_btn:hover,#review_write_cancel_btn:hover{opacity:0.7;}
+
+/* top 버튼 */
+#move_top_btn{position: fixed; right: 2%; bottom: 50px; display: none; z-index:999;outline:none;}
+
+/* 더보기 버튼 */
+.viewMore{z-index:999; display: block; margin: 0 auto; margin-top: 20px; width: 100%; text-align:center; border:0; background:0; outline:none!important;}
+.viewMore:hover{opacity:0.7;}
+
+/* 리뷰 작성 폼 */
+#writeForm{
+	width:975px;
+	height:550px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+

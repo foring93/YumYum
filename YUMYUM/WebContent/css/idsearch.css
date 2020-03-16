@@ -1,0 +1,58 @@
+.yy_idsearchform {
+	width: 1000px;
+}
+
+.yy_idsearchfieldset {
+	width: 1000px;
+}
+
+.yy_idcontents {
+	width: 600px;
+	height: 800px;
+	margin: 100px auto;
+	text-align: center;
+	clear: both;
+}
+
+#yy_name, #yy_phone {
+	width: 600px;
+	height: 80px;
+	font-size: 15pt;
+	padding: 30px;
+	margin: 20px auto;
+}
+
+#yy_logjoin {
+	float: right;
+}
+
+#yy_main {
+	color: #F87A04;
+	font-weight: bold;
+	font-size: 20pt;
+	text-decoration: none;
+}
+#yy_main:hover{
+	text-decoration: none;
+}
+.out {
+	clear: both;
+}
+#idsearch{
+	width:600px;
+	height: 60px;
+	background: #F87A04;
+	border:0;
+	border-radius:20px;
+	color:white;
+	font-size:20px;	
+}
+#idsearch:hover{
+	background:#f9a557;
+}
+#yy_idsearchh{
+	margin-top: 200px;
+	margin-bottom: 80px;
+	font-size: 80px;
+	font-weight: 800;
+}

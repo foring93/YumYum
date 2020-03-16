@@ -1,0 +1,129 @@
+			
+			
+			
+<div class="reviewArea">
+	<header class="reviewHeader">
+		<span class="review_cnt">리뷰(리뷰갯수)
+			<span id="review_write">
+				리뷰작성<button type="button"
+					onclick = 'location.href = "../review/Y_Review_Write?mp_name=${mp_info.MP_NAME}&mp_no=${mp_info.MP_NO}"'><img src="../img/d_edit.png"></button>
+			</span>
+		</span>
+		<hr>
+		<div class="selects">
+			<span>카테고리</span>
+			<select id="category_by">
+				<option value="0" selected>전체보기</option>
+				<option value="1">한식</option>
+				<option value="2">중식</option>
+				<option value="3">양식</option>
+				<option value="4">일식</option>
+			</select>
+			<span>정렬 순</span>
+			<select id="order_by">
+				<option value="0" selected>최신 순</option>
+				<option value="1">추천 순</option>
+			</select>
+			<span>평점 순</span>
+			<select id="grade_by">
+				<option value="0" selected>전체 보기</option>
+				<option value="1">평점 4 이상만</option>
+			</select>
+		</div>
+	</header>
+	<!-- reviewHeader -->
+	
+	<div class="reviews">
+		<div class="review">
+			<div class="user_info">
+				<span class="user_nickname">${r.re_writer}</span>
+				<br>
+				<span class="recommend_cnt">추천 : ${r.re_recommend_cnt}</span>
+			</div>
+			<!-- user_info -->
+			<div class="rev_content">
+				<div class="re_content">
+					<span class="re_regidate">${r.re_regidate}</span>
+					<span class="review_grade">${r.re_grade}</span>
+					<span class="re_content">${r.re_content}</span>
+				</div>
+				<!-- re_content -->
+				<div class="re_img">
+					<img src="${r.re_img_url}" width="100%" height="100%">
+				</div>
+				<!-- re_img -->
+			</div>
+			<!-- rev_content -->
+		</div>
+		<!-- review -->
+	</div>
+	<!-- reviews -->
+</div>
+<!-- reviewArea -->
+
+
+
+
+session.setAttribute("id", id);
+session.setAttribute("usernum", list.get(0));
+session.setAttribute("nickname", list.get(1));
+session.setAttribute("user_is_admin", list.get(2));
+session.setAttribute("point", list.get(3));
+session.setAttribute("user_is_owner", list.get(4));
+
+
+
+
+input:type="hidden"	re_ref_no
+.mp_name		re_ref_name
+.user_nickname		re_writer
+.re_content		re_content
+.re_regidate	
+
+
+String sql = "INSERT INTO REVIEW_TBL"
+					   + "( RE_NO, RE_WRITER, RE_REF_NO, RE_REF_NAME, "
+					   + "RE_CONTENT, RE_GRADE, RE_IMG_URL ) "
+					   + "VALUES( REVIEW_SEQ.NEXTVAL, ?, ?, ?, ?, ?, ? ) ";
+			
+
+
+
+
+
+body > div > fieldset > form > div.bottomArea > div > div:nth-child(11)
+
+
+
+
+
+	// next 클릭시 다음 index 사진들 보여줌
+	var preventN = 0;
+	function showNextImg(){
+		// 연속 클릭 방지
+		if(preventN != 0){return}
+		preventN = 1;
+		preventB = 1;
+		$('.backImg').removeClass('hiddenImg').animate({opacity:"1"},2000);
+		//$(this).parent().children('.cImgsArea').css({'position':'absolute'});
+		var targetImg = $(this).parent().children('.cImgsArea').children('.clickableImgs').eq(imgStart);
+		targetImg.animate({opacity:"0"},800,function(){
+			$(this).parent().animate({left:"-=72"},1000,function(){
+				targetImg.addClass('hiddenImg');
+				$(this).css('left','-203px');
+				preventN = 0;
+				preventB = 0;
+			});
+			var targetImg2 = $(this).parent().children('.clickableImgs').eq(imgEnd+1);
+			targetImg2.removeClass('hiddenImg').css('opacity','0');
+			targetImg2.animate({opacity:"1"},1000);
+		});
+		if(imgLength - 2 == imgEnd)
+		{
+			$(this).animate({opacity:"0"},2000,function(){
+				$(this).addClass('hiddenImg');
+			});
+		}
+		imgStart++;
+		imgEnd++;
+	}

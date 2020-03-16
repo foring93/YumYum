@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.approve_state_list {
+	margin : 30px 30px 10px 30px;
+	font-weight : bold;
+	font-size : 15pt;
+	color : #AC968A;
+	text-align : center;
+}
+
+.approve_state_tbl {
+	width : 750px;
+	margin : 0 auto;
+	text-align : center;
+	font-size : 10pt;
+}
+
+.approve_state_tbl th {
+	color : #756B5E;
+	font-weight: normal;
+	background : #fbfafa;
+	border-bottom : 2px solid #e9e9e9;
+}
+
+.btn-cancel {
+	float : left;
+	margin : 0 0 10px 8px;
+	font-size : 10pt;
+	color : white;
+	background : #AC968A;
+	border : none;
+}
+
+.btn-cancel:hover {
+	background : white;
+	color : #AC968A;
+	transition : 0.3s;
+}
+
+.approve_state_tbl th:nth-child(1) { /* 선택 thead */
+	width : 50px;
+}
+
+.reg_modify {
+	border : none;
+	color : white;
+	background : #AC968A;
+}
+
+.reg_modify:hover {
+	opacity : 0.8;
+	transition : 0.3s;
+}
+
+.ask_btn {
+	border : none;
+	color : white;
+	background : #AC968A;
+}
+
+.ask_btn:hover {
+	opacity : 0.8;
+	transition : 0.3s;
+}
+
+.ask_modify {
+	text-decoration : none !important;
+}
+
+.approve_state_tbl tbody tr:nth-child(2n) {
+	background : #fbfafa;
+}
+
+td {
+	padding : 13px 0;
+}
+
+.reject_reason {
+	color : #757575;
+}
