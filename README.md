@@ -10,12 +10,14 @@
 - 검색을 통한 맛집 정보 제공
 - 점주의 식당 등록 및 등록 요청 현황 페이지 UI 제작
 
+
 ### # 신규순 맛집 정보 제공
 
 ![1](https://user-images.githubusercontent.com/44693915/87138457-68ca4680-c2d9-11ea-8e94-ca3f201e586d.png)
 
 상단의 '신규 식당' 메뉴 클릭 시 ajax를 통해
 관리자에 의해 등록된 순서대로 한 페이지당 최대 여섯 개의 맛집 정보 데이터를 로드한다.
+
 
 
 ### # 베스트순 맛집 정보 제공
@@ -26,11 +28,13 @@
 유저들에 매겨진 평점 순으로 여섯 개의 맛집 정보 데이터만 로드한다.
 
 
+
 ### # 전체 맛집 정보 제공
 
 ![screencapture-localhost-8088-YUMYUM-M-category-all-2020-07-10-19_06_41](https://user-images.githubusercontent.com/44693915/87143180-a383ad00-c2e0-11ea-9423-3eed30eab643.png)
 
 상단의 '전체 식당' 메뉴 클릭 시 ajax를 통해 가나다 순으로 모든 식당 정보 데이터를 로드한다.
+
 
 
 ### # 테마별 맛집 정보 제공
@@ -60,6 +64,7 @@
 검색어 입력 시 ajax를 통해 음식점의 이름, 정보, 해시태그, 음식 종류, 주소에서 일치하는 정보들을 페이지 이동없이 로드한다.
 
 
+
 **2. 메인 화면에서의 검색**
 
 ![Inkedscreencapture-localhost-8088-YUMYUM-Main-index-2020-07-10-19_29_48_LI](https://user-images.githubusercontent.com/44693915/87145271-0591e180-c2e4-11ea-8ccd-6cdf207ee58d.jpg)
@@ -69,11 +74,13 @@
 검색어 입력 시 전체 페이지로 이동해 음식점의 이름, 정보, 해시태그, 음식 종류, 주소에서 일치하는 정보들을 로드한다.
 
 
+
 ### # 점주의 식당 등록 및 등록 요청 현황 페이지 UI 제작
 
-![image](https://user-images.githubusercontent.com/44693915/87137925-9ebafb00-c2d8-11ea-925c-c50820f078da.png)
+![screencapture-localhost-8088-YUMYUM-owner-owner-2020-07-10-19_54_12](https://user-images.githubusercontent.com/44693915/87147236-37f10e00-c2e7-11ea-9e97-20f6ec6db6ee.png)
 
 *맛집 등록 페이지*
+
 
 ![image](https://user-images.githubusercontent.com/44693915/87147063-ecd6fb00-c2e6-11ea-96ee-151ddf9b6ff2.png)
 
